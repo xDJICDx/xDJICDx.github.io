@@ -1,0 +1,41 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Portfolio Jens</title>
+            <link rel="stylesheet" href="CSS/Style.css">
+        </head>
+        <body  id="Aboutme">
+
+            <img id="AboutmeImg1" src="IMG/AboutMeImgs/Picture1.png" alt="backgroundIMG1">
+            <img id="AboutmeImg2" src="IMG/AboutMeImgs/Picture2.png" alt="backgroundIMG2">
+            <div id="aboutmeBox1">
+                <p>Hello! I’m Jens van der heijden and I’m a software developer Studying at Sint-Lucas.
+                    I have a big passion for sports, that’s why I Mountain Bike and play Football.
+                    I also Like to Game, and develop games. I would like to make a big game one day, 
+                    So I put a lot of focus on Learning new things. I am a quick learner and able to adapt. 
+                    This will be a website dedicated to the things that I have made, and currently working on. 
+                    If you want to contact me you can do that at the contact me form.</p>
+            </div>
+            
+
+            <div id="SliderBackground" onmouseover=SliderIn()></div>
+            <div id="SliderTriangleOutline" class="Slider" onmouseover=SliderOut()></div>
+            <div id="SliderRect" class="Slider" onmouseover=SliderOut()></div>
+            <div id="SliderTriangle" class="Slider" onmouseover=SliderOut()></div>
+            <div id="BackgroundSlider" class="Slider" onmouseover=SliderOut()></div>
+            <div id="SliderButton1" class="Slider SliderButtons" onmouseover="SliderOut()" onclick="NewPage('MainMenu.HTML')" ><h3>Main Menu</h3></div>
+            <div id="SliderButton2" class="Slider SliderButtons" onmouseover="SliderOut()" onclick="NewPage('Projects.HTML')"><h3>All Projects</h3></div>
+            <div id="SliderButton3" class="Slider SliderButtons" onmouseover="SliderOut()" onclick="NewPage('AboutMe.HTML')"><h3>About me</h3></div>
+            <div id="SliderButton4" class="Slider SliderButtons" onmouseover="SliderOut()" onclick="NewPage('Project1.HTML')"><h3>Mirrort</h3></div>
+            <div id="SliderButton5" class="Slider SliderButtons" onmouseover="SliderOut()" onclick="NewPage('Project2.HTML')"><h3>GameJam</h3></div>
+            <div id="SliderButton6" class="Slider SliderButtons" onmouseover="SliderOut()" onclick="NewPage('Project3.HTML')"><h3>Webshop</h3></div>
+            <div id="SliderButton7" class="Slider SliderButtons" onmouseover="SliderOut()" onclick="NewPage('Project4.HTML')"><h3>Pool Game</h3></div>
+            <div id="SliderButton8" class="Slider SliderButtons" onmouseover="SliderOut()" onclick="NewPage('Project5.HTML')"><h3>Project Play</h3></div>
+            <div id="SliderEmail" class="Slider" onmouseover="SliderOut()"><a href="mailto:j.van.der.heijden@sintlucasedu.nl"><img src="IMG/Email.png" alt="emailPNG"></a></div>
+            <div id="SliderLanguageswitch" class="Slider SliderButtons" onmouseover="SliderOut()" onclick="NewPage('AboutMe2.HTML')"><H3>switch language</H3></div>
+            <div id="SliderOverlay" class="Slider"></div>
+    
+
+            <script src="JS/Index.JS"></script>
+        </body>
+    </html>
