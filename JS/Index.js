@@ -3,7 +3,7 @@
 ------------------------------------------------------------------------------------------------------------------
 JavaScript file for My Portfolio Website
 
-Making and assigning values to variables
+Making and assigning values to variables *test*
 ------------------------------------------------------------------------------------------------------------------
 */
 
