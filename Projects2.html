@@ -4,51 +4,17 @@
         <title>Portfolio Jens</title>
         <link rel="stylesheet" href="CSS/Style.css">
     </head>
-    <body id="MainMenu">
+    <body id="Projects">
+        <!--swdas-->
 
-        <div id="textgridShadow3">
-            <h1 class="TextHi">Hallo</h1>
-            <div class="TextName">
-                <h2>Ik ben Jens</h2>
-                <h3>Van Der Heijden</h3>
-            </div>
-            <h3 class="TextSD">Software Developer Sintlucas</h3>
-        </div>
+        <img src="IMG/PoolGame.png" alt="left img" id="ProjectsLeftIMG">
+        <img src="IMG/GameJam.png" alt="right img" id="ProjectsRightIMG">
+        <img src="IMG/Mirrort.png" onclick="changeSite()" alt="Main IMG" id="ProjectsMainIMG" >
+        <img src="IMG/Webshop.png" alt="Behind Img" id="ProjectsBehindIMG">
 
-        <div id="textgridShadow2">
-            <h1 class="TextHi">Hallo</h1>
-            <div class="TextName">
-                <h2>Ik ben Jens</h2>
-                <h3>Van Der Heijden</h3>
-            </div>
-            <h3 class="TextSD">Software Developer Sintlucas</h3>
-        </div>
+        <h1 id="nameofproject">Mirrort</h1>
 
-        <div id="textgridShadow1">
-            <h1 class="TextHi">Hallo</h1>
-            <div class="TextName">
-                <h2>Ik ben Jens</h2>
-                <h3>Van Der Heijden</h3>
-            </div>
-            <h3 class="TextSD">Software Developer Sintlucas</h3>
-        </div>
-
-        <div id="textgrid">
-            <h1 class="TextHi">Hallo</h1>
-            <div class="TextName">
-                <h2>Ik ben Jens</h2>
-                <h3>Van Der Heijden</h3>
-            </div>
-            <h3 class="TextSD">Software Developer Sintlucas</h3>
-        </div>
-
-        <div id="button1" class="MainMenuButtons"><button id="Button1Style" onclick="NewPage('Projects.HTML')" >Projecten</button></div>
-        <div id="button2" class="MainMenuButtons"><button id="Button1Style" onclick="NewPage('AboutMe.HTML')">over mij</button></div>
-        <div id="button3" class="MainMenuButtons"><button id="Button1Style" onclick="NewPage('ContactMe.HTML')">contact me</button></div>
-
-        <img id="profilepic" src="IMG/PP.png" alt="profile pic">
-
-
+        <button id="MoveButton" onclick="MoveProjectsLeft()">Move</button>
 
         <div id="SliderBackground" onmouseover=SliderIn()></div>
         <div id="SliderTriangleOutline" class="Slider" onmouseover=SliderOut()></div>
@@ -64,12 +30,9 @@
         <div id="SliderButton7" class="Slider SliderButtons" onmouseover="SliderOut()" onclick="NewPage('Project4 2.HTML')"><h3>Pool Game</h3></div>
         <div id="SliderButton8" class="Slider SliderButtons" onmouseover="SliderOut()" onclick="NewPage('Project5 2.HTML')"><h3>Project Play</h3></div>
         <div id="SliderEmail" class="Slider" onmouseover="SliderOut()"><a href="mailto:j.van.der.heijden@sintlucasedu.nl"><img src="IMG/Email.png" alt="emailPNG"></a></div>
-        <div id="SliderLanguageswitch" class="Slider SliderButtons" onmouseover="SliderOut()" onclick="NewPage('MainMenu.HTML')"><H3>verander taal</H3></div>
+        <div id="SliderLanguageswitch" class="Slider SliderButtons" onmouseover="SliderOut()" onclick="NewPage('Projects.HTML')"><H3>verander taal</H3></div>
         <div id="SliderOverlay" class="Slider"></div>
 
-
-        
-
-        <script src="JS/index.js"></script>   
+        <script src="./JS/index.js"></script>  
     </body>
 </html>
